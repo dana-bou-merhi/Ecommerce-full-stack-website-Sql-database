@@ -1,0 +1,163 @@
+/* Admim Page Style*/
+
+.product-display{
+    margin: 2rem 0;
+    overflow-y: scroll;
+}
+
+.addproduct-container {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  padding: 0.8rem; 
+margin-right: 2%;
+
+  
+}
+
+.addprobuctbtn{
+
+  background-color: var(--colo-white-2); 
+  color: black;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 14px;
+  gap: 5px; 
+  transition: background-color 0.3s ease;
+
+
+}
+.addprobuctbtn .plusicon{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.product-display .product-display-table {
+    width: 80%;
+    text-align: center;
+    margin-left: 4%;
+
+}
+.product-display-table thead{
+    padding: 1rem;
+    font-size: 1.6rem;
+    background-color: var(--colo-white-2);
+   
+}
+
+.product-display-table td{
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-bottom: var(--colo-dark-1);
+    gap: 10;
+}
+.product-display-table img{
+
+    width: 160px;
+    height: 135px;
+}
+.product-display-table .updatebtn{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-bottom: 20px;
+width: 50%;
+cursor: pointer;
+font-size: 1.2rem;
+margin-bottom: 1rem;
+padding: 0.7rem ;
+border-radius: 0.3rem;
+text-align: center;
+
+}
+.updatebtn .icon{
+    align-items: center;
+    justify-content: center;
+}
+
+.product-display-table .icon{
+    margin-right: 3%;
+    align-items: center;
+    gap: 5px;
+}
+.product-display-table .updatebtn:first-child{
+margin-top: 0;
+}
+.product-display-table .updatebtn:last-child{
+    background-color: #ff2c2c;
+}
+
+@media (max-width:768px){
+
+    .product-display .product-display-table{
+        width: 80rem;
+    }
+}
+
+
+/* Admin Add Product Page*/
+
+.add-product{
+display: flex;
+margin-left: 5%;
+
+
+}
+.add-container{
+  width: 80%;
+  max-width: 780px;
+  padding: 1.5rem;
+  margin: 0 auto;
+
+
+}
+.admin-form-container form{
+
+max-width: 80%;
+
+padding: 0.5rem;
+border-radius: 1rem;
+background-color: var(--colo-white-2);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.admin-form-container form h3{
+  text-transform: uppercase;
+  color: var(--colo-dark-1);
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2.5rem;
+
+}
+
+.admin-form-container form .box{
+width: 100%;
+border-radius: 0.5rem;
+padding: 1rem 1.5rem;
+font-size: 1.7rem;
+margin: 1rem 0;
+text-align: start;
+background-color: var(--colo-white-1);
+text-transform: none;
+}
+
+.btn{
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  background: #f0454d;
+  color: var(--colo-white-2);
+  text-align: center;
+}
+
