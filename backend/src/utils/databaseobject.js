@@ -1,7 +1,7 @@
 const options = {
     host: "localhost",
-    user: "root",
-    password: "dandouna2004",
+    user: "...",
+    password: "...",
     database: "webecommproject",
   };
 
